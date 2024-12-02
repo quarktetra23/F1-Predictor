@@ -1,4 +1,4 @@
-# Formula 1 Data & Prediction
+# Formula 1 Grid Prediction
 
 This repository provides a Python-based pipeline for fetching current Formula 1 data, storing it in CSV files, and using machine learning techniques to predict the outcomes of the Abu Dhabi Grand Prix. The data is fetched from the Ergast API and includes information about drivers, driver standings, and circuits. The repository also contains a Jupyter Notebook where various machine learning models are applied to predict driver performance at the Abu Dhabi GP.
 

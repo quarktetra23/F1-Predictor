@@ -55,17 +55,4 @@ python data.py
 
 ### Step 4: Run the Jupyter Notebook for Modeling
 
-Open the Jupyter Notebook and apply machine learning models to predict the Abu Dhabi GP results.
-
-## Machine Learning Models
-
-The following machine learning models are applied in the Jupyter Notebook for predicting the driver standings for the Abu Dhabi Grand Prix:
-`
-    1. Random Forest
-    2. Gradient Boosting
-    3. Support Vector Regression (SVR)
-    4. Neural Network
-    5. K-Nearest Neighbors (KNN)
-    6. Linear Regression
-
-Each model will be trained using the available data, and predictions will be generated for the upcoming Abu Dhabi GP.
+Run the models in the jupyter notebook, to view the results stores in csv files. 

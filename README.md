@@ -2,6 +2,10 @@
 
 This repository provides a Python-based pipeline for fetching current Formula 1 data, storing it in CSV files, and using machine learning techniques to predict the outcomes of the Abu Dhabi Grand Prix 2024. The data is fetched from the Ergast API and includes information about drivers, driver standings, and circuits. The repository also contains a Jupyter Notebook where various machine learning models are applied to predict driver performance at the Abu Dhabi GP.
 
+## Results 
+
+The model predicts the grid well including the podiums. One of the drawbacks being that it does not account for any car crashes or physical interuptions, i.e., it assumes a no casualty race; contradictory to what happened that day, potentially being a variable in the model to be accounted for. Future works include introducing such variables. 
+
 ## Repository Structure
 
 - **data.py**: A Python script for fetching data from the Ergast API and saving it to CSV files. The script gathers the following data:

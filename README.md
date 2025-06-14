@@ -6,6 +6,9 @@ This repository provides a Python-based pipeline for fetching current Formula 1 
 
 The model predicts the grid well including the podiums. One of the drawbacks being that it does not account for any car crashes or physical interuptions, i.e., it assumes a no casualty race; contradictory to what happened that day, potentially being a variable in the model to be accounted for. Future works include introducing such variables. 
 
+<img width="366" alt="Screenshot 2025-06-14 at 19 56 10" src="https://github.com/user-attachments/assets/fb59dba5-d417-4f81-b403-0acff9e6c05c" />
+
+
 ## Repository Structure
 
 - **data.py**: A Python script for fetching data from the Ergast API and saving it to CSV files. The script gathers the following data:
@@ -38,13 +41,7 @@ First, clone this repository to your local machine:
 git clone https://github.com/yourusername/formula-1-data-prediction.git
 cd formula-1-data-prediction
 
-### Step 2: Install Dependencies
-
-Install the required Python libraries using pip:
-
-pip install -r requirements.txt
-
-Here is a sample requirements.txt:
+### Step 2: Dependencies Required
 
 pandas==1.3.3
 requests==2.26.0

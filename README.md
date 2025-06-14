@@ -38,8 +38,7 @@ To use this repository, you will need Python installed on your machine. You can 
 ### Step 1: Clone the Repository
 First, clone this repository to your local machine:
 
-git clone https://github.com/yourusername/formula-1-data-prediction.git
-cd formula-1-data-prediction
+git clone https://github.com/quarktetra23/F1-Predictor
 
 ### Step 2: Dependencies Required
 
